@@ -1,3 +1,5 @@
+![screenshot](./screenshot.png)
+
 # Chrome/Firefox Extension for @s17n "Sumo"
 
 Add a draggable trigonometric circle draggable on screen with a little dot to calculate the ideal angle.

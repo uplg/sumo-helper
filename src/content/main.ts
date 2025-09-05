@@ -242,7 +242,7 @@ class TwitchTrajectoryCalculator {
       text.setAttribute("y", y.toString());
       text.setAttribute("text-anchor", "middle");
       text.setAttribute("dominant-baseline", "middle");
-      text.setAttribute("fill", "#999");
+      text.setAttribute("fill", "#FFF");
       text.setAttribute("font-size", "10");
       text.textContent = angle + "°";
 
