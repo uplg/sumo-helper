@@ -114,7 +114,6 @@ class TwitchTrajectoryCalculator {
   private addKeyboardShortcut(): void {
     document.addEventListener("keydown", (e: KeyboardEvent) => {
       if (e.key === "t" || e.key === "T") {
-        // Vérifier que l'utilisateur n'est pas en train de taper dans un input
         const activeElement = document.activeElement;
         if (
           activeElement &&
@@ -275,7 +274,6 @@ class TwitchTrajectoryCalculator {
       e.stopPropagation();
     });
 
-    // Drag du cercle SVG entier pour le déplacer
     const svgElement = this.container.querySelector(
       ".trajectory-circle"
     ) as SVGSVGElement;
